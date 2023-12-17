@@ -55,6 +55,7 @@ type indexLsStruct struct {
 func part2(scanner bufio.Scanner) {
     accum := 0
 
+    // replace all the words with words with a num in it
     var replacerStruct = []indexLsStruct{
         {val: "one", replace: "o1e"},
         {val: "two", replace: "t2o"},
